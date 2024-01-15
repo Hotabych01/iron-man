@@ -875,7 +875,7 @@ html {
 
 /**********************DESK 1440*********************/
 
-@media (max-width: 1440px) {
+@media (max-width: 1500px) {
 	.header .header-menu .main-menu .menu-item .item-link {
 		font-size: 18px;
 	}
@@ -1043,10 +1043,11 @@ html {
 				padding: 35px 25px;
 				.form-send {
 					width: 100%;
-					height: 60px;
+					height: 50px;
 					display: flex;
 					align-items: center;
 					justify-content: center;
+					padding: 0;
 				}
 			}
 		}
@@ -1179,10 +1180,11 @@ html {
 				}
 				.form-send {
 					width: 80%;
-					height: 60px;
+					height: 50px;
 					display: flex;
 					align-items: center;
 					justify-content: center;
+					padding: 0;
 				}
 				.form-description {
 					width: 80%;
