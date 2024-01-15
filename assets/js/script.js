@@ -110,20 +110,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	const input = document.querySelector('input');
 	
 	function isEmailValid() {
-		let none = 0;
-		$('.submit').click(function() {
-			if($('.last-name').val().length === 0 ) {
-				none = 0;
-			} else {
-				none++;
-			}
-		})
-		return none;
+		return EMAIL_REGEXP.test(value);
 	}
 	
 	function onInput() {
 		let error = 0;
-		if (isEmailValid() === 0) {
+		if (isEmailValid(input.value)) {
 			input.classList.remove('invalid');
 			input.classList.add('valid');
 			error = 0;
