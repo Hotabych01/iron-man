@@ -925,6 +925,18 @@ html {
   .header .header-menu .main-menu .menu-item .item-link {
     font-size: 18px;
   }
+  .home-section .home-section__column .home-section__title {
+    height: 110%;
+  }
+  .home-section .home-section__column .home-section__title .home-title {
+    font-size: 60px;
+  }
+  .home-section .home-section__column .home-section__title .home-title .home-title__size {
+    font-size: 60px;
+  }
+  .home-section .home-section__column .home-section__title .home-title .home-title__font {
+    font-size: 90px;
+  }
   .home-section .home-section__column .home-section__title .home-text {
     font-size: 30px;
   }
