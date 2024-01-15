@@ -898,26 +898,72 @@ html {
 
 .text-send {
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
-  line-height: 0px;
+  margin-top: 15px;
+  text-align: center;
 }
 
 .send {
   color: #309f5b;
-  height: 25px;
   display: flex;
   align-items: center;
 }
 
 .error {
   color: #c40000;
-  height: 25px;
   display: flex;
   align-items: center;
+}
+
+.body-thank {
+  background: #F63A16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-thank .thank-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body-thank .thank-group .thank-logo {
+  width: 20%;
+  margin-bottom: 110px;
+}
+.body-thank .thank-group .thank-logo img {
+  width: 100%;
+}
+.body-thank .thank-group .thank-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 60%;
+  margin-bottom: 80px;
+}
+.body-thank .thank-group .thank-home {
+  padding: 20px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #FFF;
+  gap: 50px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 /**********************DESK 1440*********************/
@@ -1320,6 +1366,21 @@ html {
   }
   .footer .service-column .service-list .service-item {
     margin-bottom: 30px;
+  }
+  .body-thank .thank-group .thank-text {
+    font-size: 25px;
+    width: 100%;
+  }
+  .body-thank .thank-group .thank-home {
+    font-size: 18px;
+  }
+  .body-thank .thank-group .thank-logo {
+    width: 60%;
+    margin-bottom: 110px;
+  }
+  .body-thank {
+    align-items: start;
+    padding-top: 120px;
   }
   /***********************SLIDER*********************/
   .slick-dots {

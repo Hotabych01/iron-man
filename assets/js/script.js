@@ -93,8 +93,9 @@ document.addEventListener('DOMContentLoaded', function() {
 				$('.text-send').addClass('send');
 				console.log('send');
 				form.reset();
+				window.location.href = '/thank-you.html';
 			} else {
-				sendText.innerHTML = 'error';
+				sendText.innerHTML = 'The form has been filled out incorrectly';
 				$('.text-send').addClass('error');
 				form.reset();
 				console.log('error');
@@ -105,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	}
 
-	// const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
+	const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
 	const input = document.querySelector('input');
 	
 	function isEmailValid() {
@@ -160,8 +161,9 @@ document.addEventListener('DOMContentLoaded', function() {
 				$('.text-send').addClass('send');	
 				console.log('send');
 				form.reset();
+				window.location.href = '/thank-you.html';
 			} else {
-				sendText.innerHTML = 'error';
+				sendText.innerHTML = 'The form has been filled out incorrectly';
 				$('.text-send').addClass('error');
 				form.reset();
 			}
