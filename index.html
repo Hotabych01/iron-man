@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/assets/css/slick-theme.css">
+	<link rel="stylesheet" href="/assets/css/slick.css">
+	<link rel="stylesheet" href="/style.css">
+	<title>Iron man</title>
+</head>
+<body class="body">
+	<header class="header">
+		<div class="header-wrap__desk desk">
+			<a href="/" class="header-logo">
+				<img src="/assets/img/logo.png" alt="logo">
+			</a>
+			<div class="header-menu">
+				<ul class="main-menu">
+					<li class="menu-item">
+						<a href="#service" class="item-link">service</a>
+					</li>
+					<li class="menu-item">
+						<a href="#step" class="item-link">how it work</a>
+					</li>
+					<li class="menu-item">
+						<a href="#about" class="item-link">about us</a>
+					</li>
+					<li class="menu-item">
+						<a href="#location" class="item-link">location</a>
+					</li>
+					<li class="menu-item">
+						<a href="#contacts" class="item-link">contacts</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header-contacts">
+				<div class="header-social__group">
+					<a href="#" class="social-link">
+						<img src="/assets/img/insta.png" alt="insta">
+					</a>
+					<a href="https://www.facebook.com/profile.php?id=61550760707879&mibextid=LQQJ4d" class="social-link">
+						<img src="/assets/img/facebook.png" alt="facebook">
+					</a>
+				</div>
+				<a href="#feedback-form" class="header-button">
+					get a quote
+				</a>
+				<a href="tel:6479614341" class="header-phone">
+					647-961-4341
+				</a>
+			</div>
+		</div>
+		<button class="header-button__menu mob">
+			<img src="/assets/img/menu.png" alt="menu">
+		</button>
+		<div class="header-wrap__mob mob">
+			<div class="header-close__wrap">
+				<button class="header-close">
+					<img src="/assets/img/close.png" alt="close">
+				</button>
+			</div>
+			<a href="/" class="header-logo">
+				<img src="/assets/img/logo.png" alt="logo">
+			</a>
+			<div class="header-menu">
+				<ul class="main-menu">
+					<li class="menu-item">
+						<a href="#service" class="item-link">service</a>
+					</li>
+					<li class="menu-item">
+						<a href="#step" class="item-link">how it work</a>
+					</li>
+					<li class="menu-item">
+						<a href="#about" class="item-link">about us</a>
+					</li>
+					<li class="menu-item">
+						<a href="#location" class="item-link">location</a>
+					</li>
+					<li class="menu-item">
+						<a href="#contacts" class="item-link">contacts</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header-contacts">
+				<div class="header-social__group">
+					<a href="#" class="social-link">
+						<img src="/assets/img/insta.png" alt="insta">
+					</a>
+					<a href="https://www.facebook.com/profile.php?id=61550760707879&mibextid=LQQJ4d" class="social-link">
+						<img src="/assets/img/facebook.png" alt="facebook">
+					</a>
+				</div>
+				<a href="#feedback-form" class="header-button">
+					get a quote
+				</a>
+				<a href="tel:6479614341" class="header-phone">
+					647-961-4341
+				</a>
+			</div>
+		</div>
+	</header>
+	
+	<div class="home-section section">
+		<div class="home-section__column">
+			<div class="home-section__title">
+				<h2 class="home-title">Your move 
+				<br>
+				<span class="home-title__font">better</span> <span class="home-title__size">with us</span></h2>
+				<p class="home-text">in any region of ontario</p>
+			</div>
+		</div>
+		<div class="home-section__column">
+			<div class="home-section__contacts">
+				<p class="home-text">Start your successful
+				<br>
+				move here!</p>
+				<a href="#feedback-form" class="home-button">get a quote</a>
+				<a href="tel:647-961-4341" class="home-phone">647-961-4341</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="feedform" class="application-section section">
+		<div class="application-inform__wrap">
+			<h3 class="application-title">
+				Start your successful
+				<br>
+				move here!
+			</h3>
+			<p class="application-subtitle">
+				Leave a request <br class="mob"> and get an answer
+			</p>
+			<p class="application-text desk">
+				"Ease and efficiency in every box! Our moving company is your ultimate partner in the world of apartment relocations. 
+				<br>
+				<br>
+				Entrust us with your relocation, and you'll receive not only the transportation of your belongings but also inspiration for a new chapter in life. 
+				<br>
+				<br>	
+				Choose professionals – choose us for the best apartment move of your life!"
+			</p>
+			<p class="application-text mob">
+				The Iron Men team is ready to ensure a safe and efficient transition to your new location. We provide a wide range of services, including packing, transportation, and unpacking. Relax, trusting us with your move to a new home!
+			</p>
+		</div>
+		<div class="application-form__wrap">
+			<form id="application-form" action="#" class="application-form">
+				<input type="text" id="input-name" class="input" placeholder="*Full name" name="name" required>
+				<input type="number" id="input-phone" class="input" placeholder="*Phone number" name="phone" required>
+				<input type="mail" id="input-mail" class="input" placeholder="*Email" name="mail" required>
+				<input type="text" id="input-start" class="input" placeholder="*Moving from" name="start" required>
+				<input type="text" id="input-end" class="input" placeholder="*Moving to" name="end" required>
+				<input type="text" id="input-date" class="input" placeholder="*Moving date" name="date" value="" readonly required>
+				<i class="fas fa-calendar-check icon"></i>
+				<input type="submit" id="submit" class="form-send" value="get a quote">
+				<p class="form-description">
+					By clicking the button, you agree to our Terms of Use and Privacy Policy.
+				</p>
+				<p id="text-send" class="text-send"></p>
+			</form>
+		</div>
+	</div>
+
+	<div id="service" class="service-section section">			
+		<div class="service-item">
+			<img src="/assets/img/service-item1.png" alt="service-item" class="service-item__img">
+			<h3 class="service-item__title">local home moving</h3>
+			<p class="service-item__text">
+				Make your local move worry-free and easy with our team. Leave the details to us and we'll make it enjoyable and stress-free from start to finish.
+			</p>
+			<a href="#feedback-form" class="service-item__button">get a quote</a>
+		</div>
+		<div class="service-item">
+			<img src="/assets/img/service-item2.png" alt="service-item" class="service-item__img">
+			<h3 class="service-item__title">comercial moving</h3>
+			<p class="service-item__text">
+				Simplify your commercial move with our expertise. Whether it's an office or restaurant, or small business. Just trust our team's experience to ensure your business move is a seamless and skillful journey.
+			</p>
+			<a href="#feedback-form" class="service-item__button">get a quote</a>
+		</div>
+		<div class="service-item">
+			<img src="/assets/img/service-item3.png" alt="service-item" class="service-item__img">
+			<h3 class="service-item__title">Condominium move</h3>
+			<p class="service-item__text">
+				Condo moving in Toronto has never been any easier! We customize our service to match your unique moving needs. We execute each move with utmost professionalism and care.
+			</p>
+			<a href="#feedback-form" class="service-item__button">get a quote</a>
+		</div>
+		<div class="service-item">
+			<img src="/assets/img/service-item4.png" alt="service-item" class="service-item__img">
+			<h3 class="service-item__title">long distance moving</h3>
+			<p class="service-item__text">
+				Planning a long-distance move? Rely on us for careful packing, secure transport, and a smooth transition to your new home, ensuring a stress-free journey throughout.
+			</p>
+			<a href="#feedback-form" class="service-item__button">get a quote</a>
+		</div>
+		<div class="service-item">
+			<img src="/assets/img/service-item5.png" alt="service-item" class="service-item__img">
+			<h3 class="service-item__title">piano</h3>
+			<p class="service-item__text">
+				Our team is comprised of professionals in piano transportation, and heavy items. We guarantee the highest level of care and safety at every step of the transportation process.
+			</p>
+			<a href="#feedback-form" class="service-item__button">get a quote</a>
+		</div>
+		<div class="service-item">
+			<img src="/assets/img/service-item6.png" alt="service-item" class="service-item__img">
+			<h3 class="service-item__title">packing & unpacking</h3>
+			<p class="service-item__text">
+				Our experts carefully pack your belongings, guaranteeing their integrity. You can confidently entrust us with the packing process, knowing that we put in maximum effort for your comfort and satisfaction.
+			</p>
+			<a href="#feedback-form" class="service-item__button">get a quote</a>
+		</div>
+	</div>
+
+	<div id="step" class="step-section section">
+		<h2 class="step-title">
+			how it works?
+			<br>
+			make it happens in <span>4 steps:</span>
+		</h2>
+		<div class="step-item__wrap">
+			<div class="step-item even-step">
+				<div class="step-item__img">
+					<img src="/assets/img/step-item1.png" alt="step-item">
+				</div>
+				<p class="step-item__text">
+					book your service
+				</p>
+			</div>
+			<div class="step-item odd-step">
+				<div class="step-item__img">
+					<img src="/assets/img/step-item2.png" alt="step-item">
+				</div>
+				<p class="step-item__text">
+					get on estimate
+				</p>
+			</div>
+			<div class="step-item even-step">
+				<div class="step-item__img">
+					<img src="/assets/img/step-item3.png" alt="step-item">
+				</div>
+				<p class="step-item__text">
+					pack your goor
+				</p>
+			</div>
+			<div class="step-item">
+				<div class="step-item__img">
+					<img src="/assets/img/step-item4.png" alt="step-item">
+				</div>
+				<p class="step-item__text">
+					safe delivery
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="about" class="about-section section">
+		<h2 class="about-title">
+			about us
+		</h2>
+		<div class="about-inform">
+			<h3 class="inform-title">
+				<span>iron men</span> company:
+			</h3>
+			<p class="inform-text">
+				Trust your move to professionals! Our moving company offers reliable services focused on your comfort and safety. Our experienced staff is ready to ensure efficient packing, secure transportation, and smooth unpacking of your belongings.
+				<br>
+				<br>
+				We understand that moving is a significant stage in your life, and we commit to making it as convenient as possible for you. Submit your application, and we’ll help you create a new home without unnecessary worries. 
+			</p>
+		</div>
+		<div class="about-img">
+			<img src="/assets/img/about.png" alt="about">
+		</div>
+	</div>
+
+	<div id="location" class="location-section section">
+		<h2 class="location-title">location</h2>
+		<div class="location-group">
+			<div class="location-column">
+				<div class="location-item">
+					<p class="location-number">1</p>
+					<p class="location-name">toronto</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">2</p>
+					<p class="location-name">Barrie</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">3</p>
+					<p class="location-name">Etobicoke</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">4</p>
+					<p class="location-name">Hamilton</p>
+				</div>
+			</div>
+			<div class="location-column">
+				<div class="location-item">
+					<p class="location-number">5</p>
+					<p class="location-name">Kitchener</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">6</p>
+					<p class="location-name">Markham</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">7</p>
+					<p class="location-name">Milton</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">8</p>
+					<p class="location-name">Innisfil</p>
+				</div>
+			</div>
+			<div class="location-column">
+				<div class="location-item">
+					<p class="location-number">9</p>
+					<p class="location-name">Pickering</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">10</p>
+					<p class="location-name">Mississauga</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">11</p>
+					<p class="location-name">North York</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">12</p>
+					<p class="location-name">Oakville</p>
+				</div>
+			</div>
+			<div class="location-column">
+				<div class="location-item">
+					<p class="location-number">13</p>
+					<p class="location-name">Richmond Hill</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">14</p>
+					<p class="location-name">Scarborough</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">15</p>
+					<p class="location-name">Vaughan</p>
+				</div>
+				<div class="location-item">
+					<p class="location-number">16</p>
+					<p class="location-name">Niargara Falls</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="feedback-section section">
+		<div class="form-column">
+			<h2 class="feedback-title">
+				Start your successful
+				<br class="desk">
+				move here!
+			</h2>
+			<p class="feedback-subtitle">
+				Leave a request and get an answer
+			</p>
+			<form id="feedback-form" action="" class="feedback-form">
+				<div class="input-group">
+					<input type="text" class="input" id="input-name" placeholder="*Full Name" name="name" required>
+					<input type="text" class="input" id="input-mail" placeholder="*Email" name="mail" required>
+					<input type="text" class="input input-start" id="input-start" placeholder="*Moving from" name="start" required>
+					<input type="number" class="input" id="input-phone" placeholder="*Phone number" name="phone" required>
+					<input type="text" id="date-input" class="input input-date" placeholder="*Moving date" name="date" value="" readonly required>
+					<i class="fas fa-calendar-check icon"></i>
+					<input type="text" class="input" id="input-end" placeholder="*Moving to" name="end" required>
+				</div>
+				<input type="submit" class="form-send" id="form-send" value="get a quote">
+				<p class="form-description">By clicking the button, you agree to our Terms of Use and Privacy Policy.</p>
+				<p id="text-send" class="text-send"></p>
+				<img class="feed-img mob" src="/assets/img/feedback.png" alt="feedback">
+			</form>
+		</div>
+		<div class="img-column">
+			<img class="feed-img desk" src="/assets/img/feedback.png" alt="feedback">
+		</div>
+	</div>
+
+	<footer id="contacts" class="footer section">
+		<div class="column contact-column">
+			<h3 class="column-title">contacts:</h3>
+			<div class="column-phone__group">
+				<a href="tel:705-905-6209" class="column-phone">
+					705-905-6209
+				</a>
+				<a href="tel:647-961-4341" class="column-phone">
+					647-961-4341
+				</a>
+			</div>
+			<div class="column-mail">
+				<a href="mailto:ironmenmoving.ca@gmail.com" class="mail-title">
+					email
+				</a>
+			</div>
+		</div>
+		<div class="column service-column">
+			<h3 class="column-title">services:</h3>
+			<ul class="service-list">
+				<li class="service-item">
+					<a href="#service" class="service-item__link">local home moving</a>
+				</li>
+				<li class="service-item">
+					<a href="#service" class="service-item__link">comercial moving</a>
+				</li>
+				<li class="service-item">
+					<a href="#service" class="service-item__link">packing & unpacking</a>
+				</li>
+				<li class="service-item">
+					<a href="#service" class="service-item__link">long distance moving</a>
+				</li>
+				<li class="service-item">
+					<a href="#service" class="service-item__link">piano moving</a>
+				</li>
+			</ul>
+		</div>
+		<div class="column social-column">
+			<p class="social-title">we are on social networks:</p>
+			<div class="icon-group">
+				<a href="instagram.com/ironmenmoving.ca" class="icon-item">
+					<img src="/assets/img/insta-mob.png" alt="insta">
+				</a>
+				<a href="https://www.facebook.com/profile.php?id=61550760707879&mibextid=LQQJ4d" class="icon-item">
+					<img src="/assets/img/facebook-mob.png" alt="facebook">
+				</a>
+				<a href="https://youtube.com/@Ironmenmovingca?si=oOZhj0c5qaTCJ7G0" class="icon-item">
+					<img src="/assets/img/youtube.png" alt="youtube">
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="/assets/js/jquery.js"></script>
+	<script src="/assets/js/slick.min.js"></script>
+	<script src="/assets/js/ui.js"></script>
+	<script src="/assets/js/script.js"></script>
+</body>
+</html>
