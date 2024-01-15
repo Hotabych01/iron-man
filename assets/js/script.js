@@ -100,7 +100,8 @@ document.addEventListener('DOMContentLoaded', function() {
 				console.log('error');
 			}
 		} else {
-			alert('Fill in required fields');
+			sendText.innerHTML = 'Fill in required fields';
+			$('.text-send').addClass('error');
 		}
 	}
 
@@ -165,7 +166,8 @@ document.addEventListener('DOMContentLoaded', function() {
 				form.reset();
 			}
 		} else {
-			alert('Fill in required fields');
+			sendText.innerHTML = 'Fill in required fields';
+			$('.text-send').addClass('error');
 		}
 	}
 
