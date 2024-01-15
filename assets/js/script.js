@@ -73,13 +73,14 @@ jQuery(document).ready(function () {
 
 document.addEventListener('DOMContentLoaded', function() {
 	const form = document.getElementById('application-form');
-	let sendText = document.getElementById('text-send');
 	form.addEventListener('submit', formSend);
 
 	async function formSend(e) {
 		e.preventDefault();
 
 		let error = onInput();
+
+		let sendText = document.getElementById('text-send');
 
 		let formData = new FormData(form);
 
@@ -106,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	}
 
-	const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
+	// const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
 	const input = document.querySelector('input');
 	
 	function isEmailValid() {
@@ -141,13 +142,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
 	const form = document.getElementById('feedback-form');
-	let sendText = document.getElementById('text-send');
 	form.addEventListener('submit', formSend);
 
 	async function formSend(e) {
 		e.preventDefault();
 
 		let error = onInput();
+
+		let sendText = document.getElementById('text-send');
 
 		let formData = new FormData(form);
 
