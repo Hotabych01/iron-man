@@ -905,6 +905,28 @@ html {
 	.feedback-section .form-column .feedback-form {
 		padding: 40px 20px;
 	}
+	.footer .column .column-title {
+		font-size: 30px;
+	}
+	.footer .column .column-phone__group .column-phone {
+		font-size: 20px;
+	}
+	.footer .column .column-mail .mail-title {
+		font-size: 30px;
+	}
+	.footer .service-column .service-list .service-item .service-item__link {
+		font-size: 15px;
+	}
+	.footer .social-column .social-title {
+		font-size: 30px;
+	}
+	.footer .social-column .icon-group .icon-item {
+		display: flex;
+		justify-content: center;
+	}
+	.footer .social-column .icon-group .icon-item img {
+		width: 50%;
+	}
 }
 
 /**********************DESK 1440 END*********************/
@@ -1022,6 +1044,15 @@ html {
 			.home-section__title {
 				background: url("/assets/img/home-block.png") -15px 0/100% 90% no-repeat;
 				padding-left: 5px;
+				.home-title {
+					font-size: 45px;
+					.home-title__size {
+						font-size: 45px;
+					}
+					.home-title__font {
+						font-size: 65px;
+					}
+				}
 				.home-text {
 					font-size: 24px;
 				}
