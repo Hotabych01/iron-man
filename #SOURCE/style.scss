@@ -879,6 +879,25 @@ html {
 	.header .header-menu .main-menu .menu-item .item-link {
 		font-size: 18px;
 	}
+	.header .header-contacts .header-button {
+		padding: 10px 50px;
+	}
+	.header .header-contacts .header-phone {
+		font-size: 20px;
+	}
+	.header .header-logo img {
+		width: 70%;
+	}
+	.header .header-wrap__desk {
+		padding: 10px 20px;
+	}
+	.social-link img {
+		width: 65%;
+	}
+	.social-link {
+		display: flex;
+		justify-content: center;
+	}
 	.home-section .home-section__column .home-section__title {
 		height: 110%;
 	}
