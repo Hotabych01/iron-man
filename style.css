@@ -1319,6 +1319,8 @@ html {
     align-items: center;
     justify-content: center;
     padding: 0;
+    position: relative;
+    z-index: 99;
   }
   .feedback-section .form-column .feedback-form .form-description {
     width: 80%;
